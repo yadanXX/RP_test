@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>RP_test</Name>
+    <Assembly>RP_test\RP_test.dll</Assembly>
+    <AddInId>1bbd9f52-a27c-4ae3-987d-52622cd8b3f5</AddInId>
+    <FullClassName>RP_test.MainPanel</FullClassName>
+    <VendorId>ya_dan</VendorId>
+    <VendorDescription>N/D</VendorDescription>
+  </AddIn>
+</RevitAddIns>
