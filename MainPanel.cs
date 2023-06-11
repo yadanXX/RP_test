@@ -11,7 +11,7 @@ namespace RP_test
         {
             Ribbon.GetApplicationRibbon(a).Tab("Плагины") 
                 .Panel("Помещение") 
-                .CreateButton<Test>("text3", "Расстановка марок", b => b.SetLargeImage(Resources.RP_logo32)
+                .CreateButton<Main>("text3", "Расстановка марок", b => b.SetLargeImage(Resources.RP_logo32)
                 .SetSmallImage(Resources.RP_logo16)
                 .SetLongDescription("Позволяет расставить марки в помещения")); 
             return Result.Succeeded;
